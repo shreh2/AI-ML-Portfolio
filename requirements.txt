@@ -7,3 +7,5 @@ spacy
 sentence-transformers
 torch
 transformers
+spacy
+spacy[en]
