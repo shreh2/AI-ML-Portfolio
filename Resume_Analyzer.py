@@ -77,6 +77,8 @@ async def analyze_resume(file: UploadFile = File(...), job_description: str = Fo
         print(f"Internal Server Error: {e}")  # Debug print
         return {"error": f"Internal server error: {str(e)}"}
     
+port = int(os.environ.get("PORT", 1000))  # Default to 4000 if PORT is not set
+print(f"🚀 Starting server on port {port}")
+
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8000))  # Get Render's assigned PORT, default to 8000
     uvicorn.run(app, host="0.0.0.0", port=port)
