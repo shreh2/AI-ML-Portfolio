@@ -1,7 +1,7 @@
-# AI-ML-Portfolio
+# Resume Analyzer - AI-ML-Portfolio
 
 ### Resume Analyzer API
-This is an AI-powered resume analyzer that compares resumes to job descriptions using NLP.
+This is one of the projects in my AI-ML series of projects. This an AI-powered resume analyzer that compares resumes to job descriptions using NLP.
 
 ### Features
 - Upload PDF/DOCX resumes  
